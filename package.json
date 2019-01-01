@@ -1,7 +1,7 @@
 {
   "name": "jekyll-social",
   "version": "0.0.0",
-  "description": "git@github.com:piranna/jekyll-social.git",
+  "description": "Publish your Jekyll posts on several social networks and include the URL in the frontmatter",
   "main": "lib",
   "bin": "server.js",
   "scripts": {
