@@ -1,18 +1,20 @@
 #!/usr/bin/env node
 
-const dotenv      = require('dotenv').parse
+const parsers     = require('dotenv').parse
 const unifyConfig = require('unify-config')
 
 const jekyllSocial = require('.')
 
 
-const config =
+const aliases =
 {
-  aliases: {GITHUB_TOKEN: 'auth'},
-  parsers:
-  [
-    [dotenv, '']
-  ]
+  GITHUB_REPOSITORY(value)
+  {
+    const [user, repo] = value.split('/')
+
+    return {repo, user}
+  },
+  GITHUB_TOKEN: 'auth'
 }
 
-jekyllSocial(unifyConfig(config))
+jekyllSocial(unifyConfig({aliases, parsers}))
