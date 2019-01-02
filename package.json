@@ -35,7 +35,7 @@
     "gray-matter": "^4.0.1",
     "text-ellipsis": "^1.0.3",
     "twitter": "^1.7.1",
-    "unify-config": "^0.4.3",
+    "unify-config": "^0.4.4",
     "walk-sync": "^1.0.1"
   }
 }
