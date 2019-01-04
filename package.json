@@ -31,7 +31,7 @@
   "homepage": "https://github.com/piranna/jekyll-social#readme",
   "dependencies": {
     "dotenv": "^6.2.0",
-    "github-basic": "^6.0.0",
+    "github-basic": "piranna/github-basic",
     "gray-matter": "^4.0.1",
     "text-ellipsis": "^1.0.3",
     "twitter": "^1.7.1",
