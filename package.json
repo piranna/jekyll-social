@@ -30,12 +30,12 @@
   },
   "homepage": "https://github.com/piranna/jekyll-social#readme",
   "dependencies": {
-    "dotenv": "^6.2.0",
+    "dotenv": "^8.0.0",
     "github-basic": "piranna/github-basic",
-    "gray-matter": "^4.0.1",
+    "gray-matter": "^4.0.2",
     "text-ellipsis": "^1.0.3",
     "twitter": "^1.7.1",
-    "unify-config": "^0.4.4",
-    "walk-sync": "^1.0.1"
+    "unify-config": "^0.5.1",
+    "walk-sync": "^2.0.2"
   }
 }
