@@ -14,7 +14,7 @@ const aliases =
 
     return {repo, user}
   },
-  GITHUB_TOKEN: 'auth'
+  GITHUB_TOKEN: 'app_installation_token'
 }
 
 jekyllSocial(unifyConfig({aliases, parsers}))
