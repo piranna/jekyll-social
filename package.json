@@ -33,7 +33,7 @@
     "@piranna/github-basic": "^7.0.0",
     "dotenv": "^8.2.0",
     "gray-matter": "^4.0.2",
-    "remove-markdown": "^0.3.0",
+    "remove-markdown": "piranna/remove-markdown#patch-1",
     "text-ellipsis": "^1.0.3",
     "twitter": "^1.7.1",
     "unify-config": "^0.5.2",
