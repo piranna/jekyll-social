@@ -5,7 +5,7 @@
   "main": "lib",
   "bin": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage --notify"
   },
   "repository": {
     "type": "git",
@@ -37,6 +37,10 @@
     "text-ellipsis": "^1.0.3",
     "twitter": "^1.7.1",
     "unify-config": "^0.5.2",
-    "walk-sync": "^2.0.2"
+    "walk-sync": "^2.2.0"
+  },
+  "devDependencies": {
+    "jest": "^26.6.1",
+    "prettier": "^2.1.2"
   }
 }
