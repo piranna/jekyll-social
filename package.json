@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "description": "Publish your Jekyll posts on several social networks and include the URL in the frontmatter",
   "main": "lib",
-  "bin": "server.js",
+  "bin": {
+    "jekyll-social": "server.js"
+  },
   "scripts": {
     "test": "jest --coverage --notify"
   },

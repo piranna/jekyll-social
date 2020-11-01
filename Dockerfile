@@ -12,7 +12,7 @@ LABEL "maintainer"="Jesús Leganés-Combarro 'piranna' <piranna@gmail.com>"
 # `npm` don't support easily to define a target install directory
 WORKDIR /
 COPY package*.json ./
-RUN npm install
+RUN npm install --production
 COPY . .
 WORKDIR /github/workspace
 
